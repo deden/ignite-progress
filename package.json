@@ -1,0 +1,33 @@
+{
+  "name": "ignite-progress",
+  "description": "An Ignite plugin which installs react-native-progress.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Deden Ramadhan",
+    "email": "dedenramadhan@gmail.com",
+    "url": "https://github.com/deden/ignite-progress"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "ava",
+    "watch": "ava --watch",
+    "coverage": "nyc ava",
+    "shipit": "np"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "url": "https://github.com/deden/ignite-progress",
+  "repository": "github.com/deden/ignite-progress",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-eslint": "^7.1.1",
+    "np": "^2.12.0",
+    "nyc": "^10.1.2",
+    "sinon": "^1.17.7",
+    "standard": "^8.6.0"
+  }
+}
+
+
